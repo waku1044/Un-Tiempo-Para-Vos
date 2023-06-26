@@ -1,0 +1,10 @@
+.header{
+    height: 100px;
+}
+.nombre-negocio{
+    font-family: 'Fasthand', cursive;
+    font-size: 2rem;
+}   
+.menu_toogle{
+    background: coral;
+}

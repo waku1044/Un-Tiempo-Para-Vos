@@ -1,0 +1,13 @@
+.banner{
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    background-image:url('https://4.bp.blogspot.com/-53rJoJ2Ia2w/WR-Dtl2AUTI/AAAAAAAACsg/7D8mY_ALrLY0xBVb4-qNeYl0JSVrf90xwCLcB/s1600/masaje_con_bambu.jpg') ;
+    background-size:100% 100%;
+    border-radius: 40%;
+}
+.frase_banner{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
