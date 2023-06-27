@@ -11,3 +11,67 @@
     top: 30px;
     right: 10px;
 }
+.reserva1{
+    background: #f0ece6;
+    padding: 20px 0; 
+}
+.reserva1 a{
+    transition: all 1s ease;
+}
+.reserva1 a:hover{
+    transform: scale(1.3);
+}
+#servicios{
+    padding: 20px 20px;
+}
+.envudo{
+    background: #E6E6FA;
+    
+}
+.envudo a{
+    font-size: 1.3rem;
+    transition: all 2s ease;
+}
+.envudo a:hover{
+    transform: scale(1.3);
+
+}
+.card img{
+    height: 20rem;
+}
+@media screen and (min-width:576px){
+    .card{
+        min-width: 265px;
+        width:476px;
+    }
+}
+@media screen and (min-width:768px){
+    .banner{
+        border-radius: 0; 
+        height:20rem;
+    }
+    .frase_banner{
+        font-size: 1.4rem;
+        top: 70px;
+        right: 70px;
+    }
+}
+@media screen and (min-width:1400px){
+    .banner{
+        border-radius: 0; 
+        height:30rem;
+    }
+    .frase_banner{
+        font-size: 1.4rem;
+        top: 70px;
+        right: 70px;
+    }
+    .reserva1{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 10rem;
+        font-size: 1.3rem;
+    }
+}
