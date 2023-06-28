@@ -1,0 +1,40 @@
+.banner{
+    background-image: url('https://www.sweetesthome.mx/wp-content/uploads/2020/04/gps-para-carros-2-2000x1314.jpg');
+}
+.frase_banner{
+    top: 70px;
+    right: 30px;
+}
+@media screen and (min-width: 768px) {
+    .banner {
+      border-radius: 15px;
+      height: 20rem;
+    }
+    .frase_banner { 
+      top: 30px;
+      right: 70px;
+    }
+    .frase_banner h3, p{
+      font-size: 2rem;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .banner {
+      height: 30rem;
+    }
+    .frase_banner {
+        top: 150px;
+      right: 150px;
+    }
+    .reserva1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 10rem;
+      }
+      .reserva1 p, a{
+      font-size: 2rem;
+  
+      }
+  }

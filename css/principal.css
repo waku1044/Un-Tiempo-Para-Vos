@@ -1,77 +1,62 @@
 .banner{
-    position: relative;
-    width: 100%;
-    height: 15rem;
-    background-image:url('https://4.bp.blogspot.com/-53rJoJ2Ia2w/WR-Dtl2AUTI/AAAAAAAACsg/7D8mY_ALrLY0xBVb4-qNeYl0JSVrf90xwCLcB/s1600/masaje_con_bambu.jpg') ;
-    background-size:100% 100%;
-    border-radius: 40%;
+    background-image:url('https://i0.wp.com/decursosgratis.com/wp-content/uploads/2017/08/Cursos-de-masajes-gratis.jpg?resize=720%2C480&ssl=1') ;    
 }
 .frase_banner{
-    position: absolute;
     top: 30px;
-    right: 10px;
+    left: 0px;
 }
-.reserva1{
-    background: #f0ece6;
-    padding: 20px 0; 
+#servicios {
+  padding: 20px 20px;
 }
-.reserva1 a{
-    transition: all 1s ease;
+.card:hover {
+  opacity: 0.6;
 }
-.reserva1 a:hover{
-    transform: scale(1.3);
+.card p{
+    font-size: 1.4rem;
 }
-#servicios{
-    padding: 20px 20px;
+.card img {
+  height: 20rem;
 }
-.envudo{
-    background: #E6E6FA;
-    
+.envudo {
+  background: #e6e6fa;
 }
-.envudo a{
-    font-size: 1.3rem;
-    transition: all 2s ease;
+h3{
+    font-size: 1.4rem;
+  }
+@media screen and (min-width: 576px) {
+  .card {
+    min-width: 265px;
+    width: 476px;
+  }
 }
-.envudo a:hover{
-    transform: scale(1.3);
-
-}
-.card img{
+@media screen and (min-width: 768px) {
+  .banner {
+    border-radius: 15px;
     height: 20rem;
+  }
+  .frase_banner { 
+    left: 100px;
+  }
+  .frase_banner h3, p{
+    font-size: 2rem;
+  }
 }
-@media screen and (min-width:576px){
-    .card{
-        min-width: 265px;
-        width:476px;
+@media screen and (min-width: 1400px) {
+  .banner {
+    height: 30rem;
+  }
+  .frase_banner {
+    left: 350px;
+  }
+  .reserva1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
     }
-}
-@media screen and (min-width:768px){
-    .banner{
-        border-radius: 0; 
-        height:20rem;
-    }
-    .frase_banner{
-        font-size: 1.4rem;
-        top: 70px;
-        right: 70px;
-    }
-}
-@media screen and (min-width:1400px){
-    .banner{
-        border-radius: 0; 
-        height:30rem;
-    }
-    .frase_banner{
-        font-size: 1.4rem;
-        top: 70px;
-        right: 70px;
-    }
-    .reserva1{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
-        height: 10rem;
-        font-size: 1.3rem;
+    .reserva1 p, a{
+    font-size: 2rem;
+
     }
 }
