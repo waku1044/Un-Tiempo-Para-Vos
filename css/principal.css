@@ -1,9 +1,9 @@
 .banner{
-    background-image:url('https://i0.wp.com/decursosgratis.com/wp-content/uploads/2017/08/Cursos-de-masajes-gratis.jpg?resize=720%2C480&ssl=1') ;    
+    background-image:url('../assets/img/bannerPrincipal.jpg') ;    
 }
 .frase_banner{
-    top: 30px;
-    left: 0px;
+    top: 80px;
+    right: 15px;
 }
 #servicios {
   padding: 20px 20px;
@@ -35,7 +35,8 @@ h3{
     height: 20rem;
   }
   .frase_banner { 
-    left: 100px;
+    top: 20px;
+    right: 100px;
   }
   .frase_banner h3, p{
     font-size: 2rem;
@@ -46,17 +47,20 @@ h3{
     height: 30rem;
   }
   .frase_banner {
-    left: 350px;
+    top: 100px;
+    right: 350px;
   }
   .reserva1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    height: 20rem;
     }
     .reserva1 p, a{
     font-size: 2rem;
-
+    }
+    .cite p{
+      font-size: 2rem;
     }
 }
