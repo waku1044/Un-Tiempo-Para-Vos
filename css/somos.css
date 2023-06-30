@@ -1,5 +1,6 @@
 .banner{
-    background-image:url('http://www.taispa.com.co/wp-content/uploads/2017/08/masaje_holistico.jpg');   
+    background-image:url('http://www.taispa.com.co/wp-content/uploads/2017/08/masaje_holistico.jpg'); 
+    background-size: 100% 70%;  
 }
 .frase_banner {
     top: 100px;

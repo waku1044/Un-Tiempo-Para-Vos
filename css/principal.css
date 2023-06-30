@@ -1,9 +1,10 @@
 .banner{
-    background-image:url('../assets/img/bannerPrincipal.jpg') ;    
+    background-image:url('../assets/img/bannerPrincipal.jpg');
+    background-size: 100% 50%;    
 }
 .frase_banner{
-    top: 80px;
-    right: 15px;
+    top: 60px;
+    right: 20px;
 }
 #servicios {
   padding: 20px 20px;
@@ -33,6 +34,7 @@ h3{
   .banner {
     border-radius: 15px;
     height: 20rem;
+    background-size: 100% 70%;
   }
   .frase_banner { 
     top: 20px;

@@ -1,5 +1,6 @@
 .banner{
     background-image: url('https://www.sweetesthome.mx/wp-content/uploads/2020/04/gps-para-carros-2-2000x1314.jpg');
+    background-size: 100% 70%;
 }
 .frase_banner{
     top: 70px;
@@ -11,7 +12,7 @@
       height: 20rem;
     }
     .frase_banner { 
-      top: 30px;
+      top: 70px;
       right: 70px;
     }
     .frase_banner h3, p{
@@ -23,7 +24,7 @@
       height: 30rem;
     }
     .frase_banner {
-        top: 150px;
+        top: 120px;
       right: 150px;
     }
     .reserva1 {
