@@ -1,5 +1,5 @@
 .banner{
-    background-image:url('../assets/img/masajes.jpg');
+    background-image:url('/assets/img/velaSlim.jpg');
     background-size: 100%;
       
 }
@@ -69,10 +69,21 @@
         font-size: 2rem;
     
     }
-    .card{
-        width: 200px;
-    }
+    .card-group{
+      
+        width: 100%;
+      }
+      .card{
+        min-width:500px;
+      }
     .card-text{
         font-size: 1.3rem;
+    }
+    .img-fluid {
+        height: 40rem;
+    }
+    .btn-reserva{
+        padding: 20px 30px;
+        font-size: 2rem;
     }
 }
