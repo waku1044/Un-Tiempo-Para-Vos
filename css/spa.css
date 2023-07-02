@@ -1,5 +1,5 @@
 .banner{
-    background-image:url('../assets/img/spa2.jpg');
+    background-image:url('../assets/img/imgSpa/spa2.jpg');
     background-size: 100%;
     /* background-clip: content-box; */
       
@@ -58,6 +58,10 @@
     }
     .imgCarrusel{
         height: 40rem;
+    }
+    .btn-reserva{
+        padding: 20px 30px;
+        font-size: 2rem;
     }
    
 }
