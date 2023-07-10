@@ -53,6 +53,9 @@ height: 5rem;
   .dropdown-item{
     font-size: 1rem;
   }
+  span{
+    color: goldenrod;
+  }
 @media screen and (min-width:768px){
     .header{
         height: 80px;

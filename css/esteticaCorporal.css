@@ -27,6 +27,9 @@
 .card img{
     height: 20rem;
 }
+.img{
+    height: 20rem;
+}
 @media screen and (min-width: 576px) {
     .card {
       min-width: 265px;
@@ -36,12 +39,19 @@
 @media screen and (min-width:768px){
     .banner{
         border-radius: 15px; 
-        height:20rem;
+        height:27rem;
     }
     .frase_banner{
        
         top: 70px;
         right: 100px;
+    }
+    .reserva1{
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (min-width:1400px){
@@ -79,7 +89,7 @@
     .card-text{
         font-size: 1.3rem;
     }
-    .img-fluid {
+    .img{
         height: 40rem;
     }
     .btn-reserva{
